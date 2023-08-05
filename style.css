@@ -20,12 +20,12 @@ img{
 }
 
 body{
-    background-color: rgb(26, 207, 198);
+    background-color: #00198a;
 }
 
 :root{
-    --corVerde: #1acfc6;
-    --corAmarelo: #fffd84;
+    --corVerde: #008a83;
+    --corAmarelo: #fcff60;
     --corVermelho: #cf1a1a;
 }
 
@@ -45,7 +45,7 @@ body{
 }
 
 .logo{
-    background-color: #1acfc6;
+    background-color: #00198a;
     width: 170px;
     /* margin-left: 80px; */
     text-align: center;
@@ -60,7 +60,7 @@ body{
 }
 
 .item:hover{
-    background-color: rgb(26, 207, 198);
+    background-color: #00198a;
     padding: 5px 20px;
     color: white;
 }
@@ -76,4 +76,5 @@ body{
     height: 410px;
     margin-left: 800px;
     border-radius: 320px;
+    display: flex;
 }
