@@ -60,37 +60,43 @@ body {
     text-align: center;
 }
 
-.item {
+#item{
     font: 400 20px 'NotoSans', sans-serif;
-    color: rgb(78, 78, 78);
+    /* color: rgb(78, 78, 78); */
     margin-left: 60px;
     padding: 5px 20px;
-    transition: 0.2s;
-    
+    background-color: #00198a;
+    color: white;
+    transition: 0.5s;
 }
 
-.item:hover {
-    background-color: #00198a;
+#item2{
+    font: 400 20px 'NotoSans', sans-serif;
+    /* color: rgb(78, 78, 78); */
+    margin-left: 60px;
     padding: 5px 20px;
+    background-color: #00198a;
     color: white;
+    transition: 0.5s;
 }
+
 
 .itens {
     text-align: right;
     margin-top: -90px;
 }
 
-
 .principal img {
     width: 420px;
     height: 415px;
     border-radius: 320px;
+    margin-top: -40px;
 }
 
 .textoTitulo {
     font: 700 35px 'NotoSansBold', sans-serif;
     margin-left: 70px;
-    margin-top: 30px;
+    margin-top: 0px;
     letter-spacing: 1px;
 }
 
@@ -115,10 +121,10 @@ body {
     margin: 0 60px;
 }
 
-.circulo {
+#circulo {
     border-radius: 20px;
     width: 30px;
-    background-color: #000000;
+    background-color: #00198a;
     font: 400 20px 'NotoSans', sans-serif;
     color: rgb(255, 255, 255);
     padding: 5px 30px;
