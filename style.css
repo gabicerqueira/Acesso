@@ -90,7 +90,7 @@ body {
     width: 420px;
     height: 415px;
     border-radius: 320px;
-    margin-top: -40px;
+    margin-top: -50px;
 }
 
 .textoTitulo {
@@ -113,12 +113,12 @@ body {
 }
 
 .conteudo {
-    margin-right: 360px;
+    margin-right: 300px;
     margin-top: 70px;
 }
 
 .margem {
-    margin: 0 60px;
+    margin: 0 100px 0 60px;
 }
 
 #circulo {
@@ -132,7 +132,7 @@ body {
 
 .link {
     margin-top: 30px;
-    margin-left: 170px;
+    margin-left: 190px;
 }
 
 .retangulo {

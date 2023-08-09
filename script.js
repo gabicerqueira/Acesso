@@ -6,7 +6,7 @@ button.addEventListener('click', function() {
     let resultado1 = 'Você tem acesso total a todas as áreas restritas';
     let resultado2 = 'Você tem acesso limitado a algumas áreas restritas';
     let resultado3 = 'Você não tem permissão para acessar áreas restritas';
-    let resultado4 = 'Valor inválido';
+    let resultado4 = 'Valor inválido, verifique seu número de identificação';
     let logo = document.getElementById('logo');
     let p = document.getElementById('botao');
     let circulo = document.getElementById('circulo');
