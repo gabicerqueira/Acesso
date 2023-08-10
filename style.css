@@ -147,6 +147,7 @@ body {
 .verifique {
     font: 700 30px 'NotoSansBold', sans-serif;
     text-align: center;
+    color: white;
     margin-top: 90px;
     letter-spacing: 2px;
 }
