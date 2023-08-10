@@ -17,7 +17,7 @@
             <div class="tudo">
                 <div class="cabecalho">
                     <div id="logo">
-                        <img src="img/logo.png" alt="">
+                        <img src="img/logo1.png" alt="">
                     </div>
 
                     <!-- <div class="itens">
@@ -55,7 +55,7 @@
                                     <label for="nome">Insira seu número de identificação</label>
                                 </div>
 
-                                <button id="sortear">
+                                <button id="sortear" onclick="botaoHandler()">
                                     <p id="botao">VERIFIQUE</p>
                                 </button>
                             </form>
@@ -67,6 +67,57 @@
 
         </div>
     </header>
+
+
+<!-- TESTE UTILIZANDO O SWITCH -->
+    <!-- <script>
+
+let button = document.getElementById('sortear');
+
+button.addEventListener('click', function() {
+    let nome = parseInt(document.getElementById('nome').value);
+    let cor = document.body.style;
+
+    if(nome >= 1000 && nome <=1999){
+        var resultado = 'Você tem acesso total a todas as áreas restritas'
+        document.querySelector('#resultado').textContent = resultado
+    }
+
+    else if(nome <1000){
+        var resultado = 'Valor inválido, verifique seu número de identificação'
+        document.querySelector('#resultado').textContent = resultado
+    }
+
+    else if(nome >= 2000 && nome <=2999){
+        var resultado = 'Você tem acesso limitado a algumas áreas restritas'
+        document.querySelector('#resultado').textContent = resultado
+    }
+
+    else if(nome >= 3000){
+        var resultado = 'Você não tem permissão para acessar áreas restritas'
+        document.querySelector('#resultado').textContent = resultado
+    }
+
+    switch(resultado){
+        case "Você tem acesso total a todas as áreas restritas":
+           cor.backgroundColor = '#008a83';
+           break;
+
+        case "Valor inválido, verifique seu número de identificação":
+           cor.backgroundColor = '#00198a';
+           break;
+
+        case "Você tem acesso limitado a algumas áreas restritas":
+           cor.backgroundColor = '#FFEFAD';
+           break;
+
+        case "Você não tem permissão para acessar áreas restritas":
+           cor.backgroundColor = '#cf1a1a';
+           break;
+    }
+    
+});
+    </script> -->
 
 
     <script src="script.js"></script>

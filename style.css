@@ -55,7 +55,7 @@ body {
 
 #logo {
     background-color: #00198a;
-    width: 170px;
+    width: 180px;
     /* margin-left: 80px; */
     text-align: center;
 }
@@ -98,6 +98,7 @@ body {
     margin-left: 70px;
     margin-top: 0px;
     letter-spacing: 1px;
+    color: #000000;
 }
 
 .texto {
@@ -147,9 +148,9 @@ body {
 .verifique {
     font: 700 30px 'NotoSansBold', sans-serif;
     text-align: center;
-    color: white;
     margin-top: 90px;
     letter-spacing: 2px;
+    color: black;
 }
 
 .cadastro {

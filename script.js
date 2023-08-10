@@ -20,8 +20,7 @@ button.addEventListener('click', function() {
         logo.style.backgroundColor = '#008a83'
         button.style.backgroundColor = '#008a83'
         circulo.style.backgroundColor = '#008a83'
-        // item.style.backgroundColor = '#008a83'
-        // item2.style.backgroundColor = '#008a83'
+        circulo.style.color = 'white'
     }
 
     else if(nome <1000){
@@ -30,15 +29,16 @@ button.addEventListener('click', function() {
         logo.style.backgroundColor = '#00198a'
         button.style.backgroundColor = '#00198a'
         circulo.style.backgroundColor = '#00198a'
+        circulo.style.color = 'white'
     }
 
     else if(nome >= 2000 && nome <=2999){
         document.querySelector('#resultado').textContent = resultado2
-        document.body.style.backgroundColor = '#fcff60'
-        logo.style.backgroundColor = '#fcff60'
-        button.style.backgroundColor = '#fcff60'
+        document.body.style.backgroundColor = '#FFEFAD'
+        logo.style.backgroundColor = '#FFEFAD'
+        button.style.backgroundColor = '#FFEFAD'
         p.style.color = 'black'
-        circulo.style.backgroundColor = '#fcff60'
+        circulo.style.backgroundColor = '#FFEFAD'
         circulo.style.color = 'black'
     }
 
@@ -53,4 +53,13 @@ button.addEventListener('click', function() {
     }
 
 });
+
+function botaoHandler(event){
+    event.preventDefault()
+    console.log("Botão Clicado!")
+}
+
+
+
+
 
